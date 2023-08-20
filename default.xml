@@ -1201,4 +1201,6 @@
   <!-- Add PixelBuilds repos -->
   <include name="snippets/pixelbuilds.xml" />
 
+  <!-- Lineage snippet -->
+  <include name="snippets/lineage.xml" />
 </manifest>
