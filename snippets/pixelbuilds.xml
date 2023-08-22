@@ -17,6 +17,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds-staging" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pixelbuilds-staging" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pixelbuilds-staging" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pixelbuilds-staging" />
 
   <!-- General repos -->
   <project path="bionic" name="android_bionic" remote="pixelbuilds-staging" />
@@ -33,10 +34,18 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="pixelbuilds-staging" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="pixelbuilds-staging" />
   <project path="manifest" name="android_manifest" remote="pixelbuilds-staging" />
+  <project path="vendor/pb" name="android_vendor_pb" remote="pixelbuilds-staging" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelbuilds-staging" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="pixelbuilds-staging" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pixelbuilds-staging" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="pixelbuilds-staging" />
 
   <!-- System Repos -->
   <project path="system/core" name="android_system_core" remote="pixelbuilds-staging" />
