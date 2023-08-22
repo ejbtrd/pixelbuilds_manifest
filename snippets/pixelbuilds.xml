@@ -38,6 +38,7 @@
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="pixelbuilds-staging" />
   <project path="manifest" name="android_manifest" remote="pixelbuilds-staging" />
   <project path="vendor/pb" name="android_vendor_pb" remote="pixelbuilds-staging" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitlab" clone-depth="1" />
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelbuilds-staging" />
