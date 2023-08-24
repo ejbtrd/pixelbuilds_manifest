@@ -45,8 +45,10 @@
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="pixelbuilds-staging" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pixelbuilds-staging" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pixelbuilds-staging" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="pixelbuilds-staging" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pixelbuilds-staging" />
 
   <!-- System Repos -->
   <project path="system/core" name="android_system_core" remote="pixelbuilds-staging" />
