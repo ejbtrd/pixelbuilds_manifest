@@ -141,4 +141,5 @@
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/zstd" />
+  <remove-project name="platform/external/tinycompress" />
 </manifest>

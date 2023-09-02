@@ -155,4 +155,5 @@
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/zstd" name="android_external_zstd" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
 </manifest>
